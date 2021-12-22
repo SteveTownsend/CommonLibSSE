@@ -29,14 +29,22 @@ namespace RE
 		bool InitHeapEngine(const void* a_heapDesc) override  // 01
 		{
 			using func_t = decltype(&GSysAllocPaged::InitHeapEngine);
+#ifdef SKYRIM_AE			
 			REL::Relocation<func_t> func{ REL::ID(84557) };
+#else			
+			REL::Relocation<func_t> func{ REL::ID(82462) };
+#endif			
 			return func(this, a_heapDesc);
 		}
 
 		void ShutdownHeapEngine() override  // 02
 		{
 			using func_t = decltype(&GSysAllocPaged::ShutdownHeapEngine);
+#ifdef SKYRIM_AE			
 			REL::Relocation<func_t> func{ REL::ID(84559) };
+#else			
+			REL::Relocation<func_t> func{ REL::ID(82464) };
+#endif			
 			return func(this);
 		}
 

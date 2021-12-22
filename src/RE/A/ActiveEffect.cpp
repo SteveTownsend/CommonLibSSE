@@ -8,7 +8,11 @@ namespace RE
 	void ActiveEffect::Dispel(bool a_force)
 	{
 		using func_t = decltype(&ActiveEffect::Dispel);
+#ifdef SKYRIM_AE
 		REL::Relocation<func_t> func{ REL::ID(34061) };
+#else
+		REL::Relocation<func_t> func{ REL::ID(33286) };
+#endif		
 		return func(this, a_force);
 	}
 

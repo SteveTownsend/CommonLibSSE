@@ -17,7 +17,11 @@ namespace RE
 		VMHandle Object::GetHandle() const
 		{
 			using func_t = decltype(&Object::GetHandle);
+#ifdef SKYRIM_AE
 			REL::Relocation<func_t> func{ REL::ID(104247) };
+#else
+			REL::Relocation<func_t> func{ REL::ID(97463) };
+#endif		
 			return func(this);
 		}
 
@@ -46,14 +50,22 @@ namespace RE
 		void Object::IncRef()
 		{
 			using func_t = decltype(&Object::IncRef);
+#ifdef SKYRIM_AE
 			REL::Relocation<func_t> func{ REL::ID(104252) };
+#else
+			REL::Relocation<func_t> func{ REL::ID(97468) };
+#endif		
 			return func(this);
 		}
 
 		std::uint32_t Object::DecRef()
 		{
 			using func_t = decltype(&Object::DecRef);
+#ifdef SKYRIM_AE
 			REL::Relocation<func_t> func{ REL::ID(104253) };
+#else
+			REL::Relocation<func_t> func{ REL::ID(97469) };
+#endif		
 			return func(this);
 		}
 
@@ -78,7 +90,11 @@ namespace RE
 		void Object::Dtor()
 		{
 			using func_t = decltype(&Object::Dtor);
+#ifdef SKYRIM_AE
 			REL::Relocation<func_t> func{ REL::ID(104246) };
+#else
+			REL::Relocation<func_t> func{ REL::ID(97462) };
+#endif		
 			return func(this);
 		}
 	}

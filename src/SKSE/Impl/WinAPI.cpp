@@ -33,7 +33,7 @@ namespace SKSE::WinAPI
 			::GetCurrentThreadId());
 	}
 
-	[[nodiscard]] std::uint32_t GetEnvironmentVariable(
+	[[nodiscard]] std::uint32_t CLSSEGetEnvironmentVariable(
 		const char*   a_name,
 		char*         a_buffer,
 		std::uint32_t a_size) noexcept
@@ -45,7 +45,7 @@ namespace SKSE::WinAPI
 				static_cast<::DWORD>(a_size)));
 	}
 
-	[[nodiscard]] std::uint32_t GetEnvironmentVariable(
+	[[nodiscard]] std::uint32_t CLSSEGetEnvironmentVariable(
 		const wchar_t* a_name,
 		wchar_t*       a_buffer,
 		std::uint32_t  a_size) noexcept
@@ -57,7 +57,7 @@ namespace SKSE::WinAPI
 				static_cast<::DWORD>(a_size)));
 	}
 
-	bool GetFileVersionInfo(
+	bool(CLSSEGetFileVersionInfo)(
 		const char*   a_filename,
 		std::uint32_t a_handle,
 		std::uint32_t a_len,
@@ -71,7 +71,7 @@ namespace SKSE::WinAPI
 				static_cast<::LPVOID>(a_data)));
 	}
 
-	bool GetFileVersionInfo(
+	bool(CLSSEGetFileVersionInfo)(
 		const wchar_t* a_filename,
 		std::uint32_t  a_handle,
 		std::uint32_t  a_len,
@@ -85,7 +85,7 @@ namespace SKSE::WinAPI
 				static_cast<::LPVOID>(a_data)));
 	}
 
-	std::uint32_t GetFileVersionInfoSize(
+	std::uint32_t(CLSSEGetFileVersionInfoSize)(
 		const char*    a_filename,
 		std::uint32_t* a_handle) noexcept
 	{
@@ -95,7 +95,7 @@ namespace SKSE::WinAPI
 				reinterpret_cast<::LPDWORD>(a_handle)));
 	}
 
-	std::uint32_t GetFileVersionInfoSize(
+	std::uint32_t(CLSSEGetFileVersionInfoSize)(
 		const wchar_t* a_filename,
 		std::uint32_t* a_handle) noexcept
 	{
@@ -107,10 +107,10 @@ namespace SKSE::WinAPI
 
 	std::size_t GetMaxPath() noexcept
 	{
-		return static_cast<std::size_t>(MAX_PATH);
+		return static_cast<std::size_t>(CLSSE_MAX_PATH);
 	}
 
-	std::uint32_t GetModuleFileName(
+	std::uint32_t(CLSSEGetModuleFileName)(
 		void*         a_module,
 		char*         a_filename,
 		std::uint32_t a_size) noexcept
@@ -122,7 +122,7 @@ namespace SKSE::WinAPI
 				static_cast<::DWORD>(a_size)));
 	}
 
-	std::uint32_t GetModuleFileName(
+	std::uint32_t(CLSSEGetModuleFileName)(
 		void*         a_module,
 		wchar_t*      a_filename,
 		std::uint32_t a_size) noexcept
@@ -134,14 +134,14 @@ namespace SKSE::WinAPI
 				static_cast<::DWORD>(a_size)));
 	}
 
-	void* GetModuleHandle(const char* a_moduleName) noexcept
+	void*(CLSSEGetModuleHandle)(const char* a_moduleName) noexcept
 	{
 		return static_cast<void*>(
 			::GetModuleHandleA(
 				static_cast<::LPCSTR>(a_moduleName)));
 	}
 
-	void* GetModuleHandle(const wchar_t* a_moduleName) noexcept
+	void*(CLSSEGetModuleHandle)(const wchar_t* a_moduleName) noexcept
 	{
 		return static_cast<void*>(
 			::GetModuleHandleW(
@@ -157,7 +157,7 @@ namespace SKSE::WinAPI
 				static_cast<::LPCSTR>(a_procName)));
 	}
 
-	std::int32_t MessageBox(
+	std::int32_t(CLSSEMessageBox)(
 		void*        a_wnd,
 		const char*  a_text,
 		const char*  a_caption,
@@ -171,7 +171,7 @@ namespace SKSE::WinAPI
 				static_cast<::UINT>(a_type)));
 	}
 
-	std::int32_t MessageBox(
+	std::int32_t(CLSSEMessageBox)(
 		void*          a_wnd,
 		const wchar_t* a_text,
 		const wchar_t* a_caption,
@@ -185,7 +185,7 @@ namespace SKSE::WinAPI
 				static_cast<::UINT>(a_type)));
 	}
 
-	int MultiByteToWideChar(
+	int CLSSEMultiByteToWideChar(
 		unsigned int  a_codePage,
 		std::uint32_t a_flags,
 		const char*   a_multiByteStr,
@@ -254,7 +254,7 @@ namespace SKSE::WinAPI
 				static_cast<::DWORD>(a_freeType)));
 	}
 
-	bool VerQueryValue(
+	bool(CLSSEVerQueryValue)(
 		const void*   a_block,
 		const char*   a_subBlock,
 		void**        a_buffer,
@@ -268,7 +268,7 @@ namespace SKSE::WinAPI
 				static_cast<::PUINT>(a_len)));
 	}
 
-	bool VerQueryValue(
+	bool(CLSSEVerQueryValue)(
 		const void*    a_block,
 		const wchar_t* a_subBlock,
 		void**         a_buffer,
@@ -296,7 +296,7 @@ namespace SKSE::WinAPI
 				reinterpret_cast<::PDWORD>(a_oldProtect)));
 	}
 
-	int WideCharToMultiByte(
+	int CLSSEWideCharToMultiByte(
 		unsigned int   a_codePage,
 		std::uint32_t  a_flags,
 		const wchar_t* a_wideCharStr,

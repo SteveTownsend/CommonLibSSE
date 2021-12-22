@@ -23,7 +23,11 @@ namespace RE
 
 		[[nodiscard]] static Allocator* GetSingleton()
 		{
+#ifdef SKYRIM_AE			
 			REL::Relocation<hkContainerHeapAllocator::Allocator*> singleton{ REL::ID(383828) };
+#else			
+			REL::Relocation<hkContainerHeapAllocator::Allocator*> singleton{ REL::ID(510713) };
+#endif			
 			return singleton.get();
 		}
 	};

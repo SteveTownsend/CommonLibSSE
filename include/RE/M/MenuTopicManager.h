@@ -57,7 +57,11 @@ namespace RE
 
 		static MenuTopicManager* GetSingleton()
 		{
+#ifdef SKYRIM_AE			
 			REL::Relocation<MenuTopicManager**> singleton{ REL::ID(401099) };
+#else			
+			REL::Relocation<MenuTopicManager**> singleton{ REL::ID(514959) };
+#endif			
 			return *singleton;
 		}
 

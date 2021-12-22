@@ -182,7 +182,11 @@ namespace RE
 		inline bhkWorld* GetbhkWorld() const
 		{
 			using func_t = decltype(&TESObjectCELL::GetbhkWorld);
+#ifdef SKYRIM_AE			
 			REL::Relocation<func_t> func{ REL::ID(18995) };
+#else			
+			REL::Relocation<func_t> func{ REL::ID(18536) };
+#endif			
 			return func(this);
 		}
 

@@ -69,14 +69,22 @@ namespace RE
 	void ApplyPerkEntries(std::uint8_t a_perkEntryCode, RE::Actor* a_perkOwner, RE::TESForm* a_form, float* a_value)
 	{
 		using func_t = decltype(&ApplyPerkEntries);
+#ifdef SKYRIM_AE
 		REL::Relocation<func_t> func{ REL::ID(23526) };
+#else
+		REL::Relocation<func_t> func{ REL::ID(23073) };
+#endif		
 		return func(a_perkEntryCode, a_perkOwner, a_form, a_value);
 	}
 
 	float GetArmorFinalRating(RE::InventoryEntryData* a_armorEntryData, float a_armorPerks, float a_skillMultiplier)
 	{
 		using func_t = decltype(&GetArmorFinalRating);
+#ifdef SKYRIM_AE
 		REL::Relocation<func_t> func{ REL::ID(16017) };
+#else
+		REL::Relocation<func_t> func{ REL::ID(15779) };
+#endif		
 		return func(a_armorEntryData, a_armorPerks, a_skillMultiplier);
 	}
 }

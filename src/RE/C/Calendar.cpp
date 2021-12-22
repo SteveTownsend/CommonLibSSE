@@ -72,7 +72,11 @@ namespace RE
 	void Calendar::GetTimeDateString(char* a_dest, std::uint32_t a_max, bool a_showYear) const
 	{
 		using func_t = decltype(&Calendar::GetTimeDateString);
+#ifdef SKYRIM_AE
 		REL::Relocation<func_t> func{ REL::ID(36311) };
+#else
+		REL::Relocation<func_t> func{ REL::ID(35413) };
+#endif		
 		return func(this, a_dest, a_max, a_showYear);
 	}
 

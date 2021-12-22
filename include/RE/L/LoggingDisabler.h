@@ -4,7 +4,7 @@
 
 namespace RE
 {
-#if 0
+#ifndef SKYRIM_AE
 	class LoggingDisabler : public GFxLog
 	{
 	public:

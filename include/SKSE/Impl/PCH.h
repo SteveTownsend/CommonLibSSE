@@ -478,8 +478,8 @@ namespace SKSE
 			-> std::optional<std::wstring>
 		{
 			const auto cvt = [&](wchar_t* a_dst, std::size_t a_length) {
-				return WinAPI::MultiByteToWideChar(
-					WinAPI::CP_UTF8,
+				return WinAPI::CLSSEMultiByteToWideChar(
+					WinAPI::CLSSE_CP_UTF8,
 					0,
 					a_in.data(),
 					static_cast<int>(a_in.length()),
@@ -504,8 +504,8 @@ namespace SKSE
 			-> std::optional<std::string>
 		{
 			const auto cvt = [&](char* a_dst, std::size_t a_length) {
-				return WinAPI::WideCharToMultiByte(
-					WinAPI::CP_UTF8,
+				return WinAPI::CLSSEWideCharToMultiByte(
+					WinAPI::CLSSE_CP_UTF8,
 					0,
 					a_in.data(),
 					static_cast<int>(a_in.length()),
@@ -557,7 +557,7 @@ namespace SKSE
 				std::uint32_t result = 0;
 				do {
 					buf.resize(buf.size() * 2);
-					result = WinAPI::GetModuleFileName(
+					result = WinAPI::CLSSEGetModuleFileName(
 						WinAPI::GetCurrentModule(),
 						buf.data(),
 						static_cast<std::uint32_t>(buf.size()));
@@ -578,7 +578,7 @@ namespace SKSE
 					a_loc.function_name() },
 				spdlog::level::critical,
 				a_msg);
-			WinAPI::MessageBox(nullptr, body.c_str(), (caption.empty() ? nullptr : caption.c_str()), 0);
+			WinAPI::CLSSEMessageBox(nullptr, body.c_str(), (caption.empty() ? nullptr : caption.c_str()), 0);
 			WinAPI::TerminateProcess(WinAPI::GetCurrentProcess(), EXIT_FAILURE);
 		}
 

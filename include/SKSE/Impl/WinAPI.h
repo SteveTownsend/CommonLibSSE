@@ -2,13 +2,15 @@
 
 namespace SKSE::WinAPI
 {
-	inline constexpr auto CP_UTF8{ static_cast<unsigned int>(65001) };
-	inline constexpr auto IMAGE_SCN_MEM_EXECUTE{ static_cast<std::uint32_t>(0x20000000) };
-	inline constexpr auto IMAGE_SCN_MEM_WRITE{ static_cast<std::uint32_t>(0x80000000) };
-	inline const auto     INVALID_HANDLE_VALUE{ reinterpret_cast<void*>(static_cast<std::intptr_t>(-1)) };
-	inline constexpr auto MAX_PATH{ static_cast<std::uint32_t>(260) };
-	inline constexpr auto MEM_RELEASE{ static_cast<std::uint32_t>(0x00008000) };
-	inline constexpr auto PAGE_EXECUTE_READWRITE{ static_cast<std::uint32_t>(0x40) };
+	inline constexpr auto (CLSSE_CP_UTF8){ static_cast<unsigned int>(65001) };
+	inline constexpr auto(CLSSE_IMAGE_SCN_MEM_EXECUTE){ static_cast<std::uint32_t>(0x20000000) };
+	inline constexpr auto(CLSSE_IMAGE_SCN_MEM_WRITE){ static_cast<std::uint32_t>(0x80000000) };
+	inline const auto(CLSSE_INVALID_HANDLE_VALUE){ reinterpret_cast<void*>(static_cast<std::intptr_t>(-1)) };
+	inline constexpr auto(CLSSE_MAX_PATH){ static_cast<std::uint32_t>(260) };
+	inline constexpr auto(CLSSE_MEM_COMMIT) { static_cast<std::uint32_t>(0x00001000) };
+	inline constexpr auto(CLSSE_MEM_RESERVE) { static_cast<std::uint32_t>(0x00002000) };
+	inline constexpr auto(CLSSE_MEM_RELEASE){ static_cast<std::uint32_t>(0x00008000) };
+	inline constexpr auto(CLSSE_PAGE_EXECUTE_READWRITE){ static_cast<std::uint32_t>(0x40) };
 
 	struct CRITICAL_SECTION
 	{
@@ -51,7 +53,7 @@ namespace SKSE::WinAPI
 		std::uint32_t nFileSizeLow;
 		std::uint32_t dwReserved0;
 		std::uint32_t dwReserved1;
-		char          cFileName[MAX_PATH];
+		char		  cFileName[CLSSE_MAX_PATH];
 		char          cAlternateFileName[14];
 	};
 	static_assert(sizeof(_WIN32_FIND_DATAA) == 0x140);
@@ -63,69 +65,69 @@ namespace SKSE::WinAPI
 
 	[[nodiscard]] std::uint32_t GetCurrentThreadID() noexcept;
 
-	[[nodiscard]] std::uint32_t GetEnvironmentVariable(
+	[[nodiscard]] std::uint32_t CLSSEGetEnvironmentVariable(
 		const char*   a_name,
 		char*         a_buffer,
 		std::uint32_t a_size) noexcept;
 
-	[[nodiscard]] std::uint32_t GetEnvironmentVariable(
+	[[nodiscard]] std::uint32_t CLSSEGetEnvironmentVariable(
 		const wchar_t* a_name,
 		wchar_t*       a_buffer,
 		std::uint32_t  a_size) noexcept;
 
-	[[nodiscard]] bool GetFileVersionInfo(
+	[[nodiscard]] bool(CLSSEGetFileVersionInfo)(
 		const char*   a_filename,
 		std::uint32_t a_handle,
 		std::uint32_t a_len,
 		void*         a_data) noexcept;
 
-	[[nodiscard]] bool GetFileVersionInfo(
+	[[nodiscard]] bool(CLSSEGetFileVersionInfo)(
 		const wchar_t* a_filename,
 		std::uint32_t  a_handle,
 		std::uint32_t  a_len,
 		void*          a_data) noexcept;
 
-	[[nodiscard]] std::uint32_t GetFileVersionInfoSize(
+	[[nodiscard]] std::uint32_t(CLSSEGetFileVersionInfoSize)(
 		const char*    a_filename,
 		std::uint32_t* a_handle) noexcept;
 
-	[[nodiscard]] std::uint32_t GetFileVersionInfoSize(
+	[[nodiscard]] std::uint32_t(CLSSEGetFileVersionInfoSize)(
 		const wchar_t* a_filename,
 		std::uint32_t* a_handle) noexcept;
 
 	[[nodiscard]] std::size_t GetMaxPath() noexcept;
 
-	[[nodiscard]] std::uint32_t GetModuleFileName(
+	[[nodiscard]] std::uint32_t(CLSSEGetModuleFileName)(
 		void*         a_module,
 		char*         a_filename,
 		std::uint32_t a_size) noexcept;
 
-	[[nodiscard]] std::uint32_t GetModuleFileName(
+	[[nodiscard]] std::uint32_t(CLSSEGetModuleFileName)(
 		void*         a_module,
 		wchar_t*      a_filename,
 		std::uint32_t a_size) noexcept;
 
-	[[nodiscard]] void* GetModuleHandle(const char* a_moduleName) noexcept;
+	[[nodiscard]] void*(CLSSEGetModuleHandle)(const char* a_moduleName) noexcept;
 
-	[[nodiscard]] void* GetModuleHandle(const wchar_t* a_moduleName) noexcept;
+	[[nodiscard]] void*(CLSSEGetModuleHandle)(const wchar_t* a_moduleName) noexcept;
 
 	[[nodiscard]] void* GetProcAddress(
 		void*       a_module,
 		const char* a_procName) noexcept;
 
-	std::int32_t MessageBox(
+	std::int32_t(CLSSEMessageBox)(
 		void*        a_wnd,
 		const char*  a_text,
 		const char*  a_caption,
 		unsigned int a_type) noexcept;
 
-	std::int32_t MessageBox(
+	std::int32_t(CLSSEMessageBox)(
 		void*          a_wnd,
 		const wchar_t* a_text,
 		const wchar_t* a_caption,
 		unsigned int   a_type) noexcept;
 
-	[[nodiscard]] int MultiByteToWideChar(
+	[[nodiscard]] int CLSSEMultiByteToWideChar(
 		unsigned int  a_codePage,
 		std::uint32_t a_flags,
 		const char*   a_multiByteStr,
@@ -154,13 +156,13 @@ namespace SKSE::WinAPI
 		std::size_t   a_size,
 		std::uint32_t a_freeType) noexcept;
 
-	[[nodiscard]] bool VerQueryValue(
+	[[nodiscard]] bool(CLSSEVerQueryValue)(
 		const void*   a_block,
 		const char*   a_subBlock,
 		void**        a_buffer,
 		unsigned int* a_len) noexcept;
 
-	[[nodiscard]] bool VerQueryValue(
+	[[nodiscard]] bool(CLSSEVerQueryValue)(
 		const void*    a_block,
 		const wchar_t* a_subBlock,
 		void**         a_buffer,
@@ -172,7 +174,7 @@ namespace SKSE::WinAPI
 		std::uint32_t  a_newProtect,
 		std::uint32_t* a_oldProtect) noexcept;
 
-	[[nodiscard]] int WideCharToMultiByte(
+	[[nodiscard]] int CLSSEWideCharToMultiByte(
 		unsigned int   a_codePage,
 		std::uint32_t  a_flags,
 		const wchar_t* a_wideCharStr,

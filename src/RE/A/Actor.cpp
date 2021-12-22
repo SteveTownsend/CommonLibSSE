@@ -131,7 +131,11 @@ namespace RE
 	void Actor::EvaluatePackage(bool a_immediate, bool a_resetAI)
 	{
 		using func_t = decltype(&Actor::EvaluatePackage);
+#ifdef SKYRIM_AE
 		REL::Relocation<func_t> func{ REL::ID(37401) };
+#else
+		REL::Relocation<func_t> func{ REL::ID(36407) };
+#endif		
 		return func(this, a_immediate, a_resetAI);
 	}
 
@@ -347,7 +351,11 @@ namespace RE
 	void Actor::InterruptCast(bool a_restoreMagicka) const
 	{
 		using func_t = decltype(&Actor::InterruptCast);
+#ifdef SKYRIM_AE
 		REL::Relocation<func_t> func{ REL::ID(38757) };
+#else
+		REL::Relocation<func_t> func{ REL::ID(37808) };
+#endif		
 		return func(this, a_restoreMagicka);
 	}
 
@@ -467,7 +475,11 @@ namespace RE
 	bool Actor::RemoveSpell(SpellItem* a_spell)
 	{
 		using func_t = decltype(&Actor::RemoveSpell);
+#ifdef SKYRIM_AE
 		REL::Relocation<func_t> func{ REL::ID(38717) };
+#else
+		REL::Relocation<func_t> func{ REL::ID(37772) };
+#endif		
 		return func(this, a_spell);
 	}
 
@@ -481,7 +493,11 @@ namespace RE
 	void Actor::StealAlarm(TESObjectREFR* a_ref, TESForm* a_object, std::int32_t a_num, std::int32_t a_total, TESForm* a_owner, bool a_allowWarning)
 	{
 		using func_t = decltype(&Actor::StealAlarm);
+#ifdef SKYRIM_AE
 		REL::Relocation<func_t> func{ REL::ID(37422) };
+#else
+		REL::Relocation<func_t> func{ REL::ID(36427) };
+#endif		
 		return func(this, a_ref, a_object, a_num, a_total, a_owner, a_allowWarning);
 	}
 

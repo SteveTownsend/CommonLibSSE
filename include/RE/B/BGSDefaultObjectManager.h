@@ -431,7 +431,11 @@ namespace RE
 		[[nodiscard]] static BGSDefaultObjectManager* GetSingleton()
 		{
 			using func_t = decltype(&BGSDefaultObjectManager::GetSingleton);
+#ifdef SKYRIM_AE			
 			REL::Relocation<func_t> func{ REL::ID(13894) };
+#else			
+			REL::Relocation<func_t> func{ REL::ID(10878) };
+#endif			
 			return func();
 		}
 

@@ -12,7 +12,11 @@ namespace RE
 		public:
 			[[nodiscard]] static State* GetSingleton()
 			{
+#ifdef SKYRIM_AE			
 				REL::Relocation<State*> singleton{ REL::ID(411479) };
+#else			
+				REL::Relocation<State*> singleton{ REL::ID(524998) };
+#endif			
 				return singleton.get();
 			}
 

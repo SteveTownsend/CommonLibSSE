@@ -24,14 +24,22 @@ namespace RE
 	void NiObject::ProcessClone(NiCloningProcess& a_cloning)
 	{
 		using func_t = decltype(&NiObject::ProcessClone);
+#ifdef SKYRIM_AE
 		REL::Relocation<func_t> func{ REL::ID(70190) };
+#else
+		REL::Relocation<func_t> func{ REL::ID(68838) };
+#endif		
 		return func(this, a_cloning);
 	}
 
 	void NiObject::CreateDeepCopy(NiPointer<NiObject>& a_object)
 	{
 		using func_t = decltype(&NiObject::CreateDeepCopy);
+#ifdef SKYRIM_AE
 		REL::Relocation<func_t> func{ REL::ID(70191) };
+#else
+		REL::Relocation<func_t> func{ REL::ID(68839) };
+#endif		
 		return func(this, a_object);
 	}
 }
