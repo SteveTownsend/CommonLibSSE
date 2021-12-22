@@ -91,7 +91,7 @@ namespace REL
 				a_name.data());
 			if (!_mapping) {
 				_mapping = ::CreateFileMappingW(
-					INVALID_HANDLE_VALUE,
+					WinAPI::CLSSE_INVALID_HANDLE_VALUE,
 					nullptr,
 					PAGE_READWRITE,
 					bytes.HighPart,

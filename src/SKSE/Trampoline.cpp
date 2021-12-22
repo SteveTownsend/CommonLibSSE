@@ -93,7 +93,7 @@ namespace SKSE
 
 				// if rounding didn't advance us into the next region and the region is the required size
 				if (addr < min && (min - addr) >= a_size) {
-					auto mem = ::VirtualAlloc(reinterpret_cast<void*>(addr), a_size, MEM_COMMIT | MEM_RESERVE, PAGE_EXECUTE_READWRITE);
+					auto mem = ::VirtualAlloc(reinterpret_cast<void*>(addr), a_size, WinAPI::CLSSE_MEM_COMMIT | WinAPI::CLSSE_MEM_RESERVE, WinAPI::CLSSE_PAGE_EXECUTE_READWRITE);
 					if (mem) {
 						return mem;
 					} else {

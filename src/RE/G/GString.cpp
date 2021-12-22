@@ -245,7 +245,11 @@ namespace RE
 	GString* GString::ctor(const char* a_str)
 	{
 		using func_t = decltype(&GString::ctor);
+#ifdef SKYRIM_AE
 		REL::Relocation<func_t> func{ REL::ID(82562) };
+#else
+		REL::Relocation<func_t> func{ REL::ID(80446) };
+#endif		
 		return func(this, a_str);
 	}
 

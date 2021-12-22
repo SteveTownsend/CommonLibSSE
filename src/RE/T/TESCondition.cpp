@@ -46,7 +46,11 @@ namespace RE
 	bool TESConditionItem::IsTrue(ConditionCheckParams& a_solution) const
 	{
 		using func_t = decltype(&TESConditionItem::IsTrue);
+#ifdef SKYRIM_AE
 		REL::Relocation<func_t> func{ REL::ID(29924) };
+#else
+		REL::Relocation<func_t> func{ REL::ID(29090) };
+#endif		
 		return func(this, a_solution);
 	}
 
@@ -78,7 +82,11 @@ namespace RE
 	bool TESCondition::IsTrue(TESObjectREFR* a_actionRef, TESObjectREFR* a_targetRef) const
 	{
 		using func_t = decltype(&TESCondition::IsTrue);
+#ifdef SKYRIM_AE
 		REL::Relocation<func_t> func{ REL::ID(29888) };
+#else
+		REL::Relocation<func_t> func{ REL::ID(29074) };
+#endif		
 		return func(this, a_actionRef, a_targetRef);
 	}
 }

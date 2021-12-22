@@ -222,7 +222,7 @@ namespace REL
 			WinAPI::VirtualProtect(
 				reinterpret_cast<void*>(a_dst),
 				a_count,
-				(WinAPI::PAGE_EXECUTE_READWRITE),
+				(WinAPI::CLSSE_PAGE_EXECUTE_READWRITE),
 				std::addressof(old));
 		if (success != 0) {
 			std::memcpy(reinterpret_cast<void*>(a_dst), a_src, a_count);
@@ -256,7 +256,7 @@ namespace REL
 			WinAPI::VirtualProtect(
 				reinterpret_cast<void*>(a_dst),
 				a_count,
-				(WinAPI::PAGE_EXECUTE_READWRITE),
+				(WinAPI::CLSSE_PAGE_EXECUTE_READWRITE),
 				std::addressof(old));
 		if (success != 0) {
 			std::fill_n(reinterpret_cast<std::uint8_t*>(a_dst), a_count, a_value);
@@ -347,18 +347,18 @@ namespace REL
 	[[nodiscard]] inline std::optional<Version> get_file_version(stl::zwstring a_filename)
 	{
 		std::uint32_t     dummy;
-		std::vector<char> buf(WinAPI::GetFileVersionInfoSize(a_filename.data(), std::addressof(dummy)));
+		std::vector<char> buf(WinAPI::CLSSEGetFileVersionInfoSize(a_filename.data(), std::addressof(dummy)));
 		if (buf.empty()) {
 			return std::nullopt;
 		}
 
-		if (!WinAPI::GetFileVersionInfo(a_filename.data(), 0, static_cast<std::uint32_t>(buf.size()), buf.data())) {
+		if (!WinAPI::CLSSEGetFileVersionInfo(a_filename.data(), 0, static_cast<std::uint32_t>(buf.size()), buf.data())) {
 			return std::nullopt;
 		}
 
 		void*         verBuf{ nullptr };
 		std::uint32_t verLen{ 0 };
-		if (!WinAPI::VerQueryValue(buf.data(), L"\\StringFileInfo\\040904B0\\ProductVersion", std::addressof(verBuf), std::addressof(verLen))) {
+		if (!WinAPI::CLSSEVerQueryValue(buf.data(), L"\\StringFileInfo\\040904B0\\ProductVersion", std::addressof(verBuf), std::addressof(verLen))) {
 			return std::nullopt;
 		}
 
@@ -442,7 +442,7 @@ namespace REL
 		Module()
 		{
 			const auto getFilename = [&]() {
-				return WinAPI::GetEnvironmentVariable(
+				return WinAPI::CLSSEGetEnvironmentVariable(
 					ENVIRONMENT.data(),
 					_filename.data(),
 					static_cast<std::uint32_t>(_filename.size()));
@@ -468,7 +468,7 @@ namespace REL
 
 		void load()
 		{
-			auto handle = WinAPI::GetModuleHandle(_filename.c_str());
+			auto handle = WinAPI::CLSSEGetModuleHandle(_filename.c_str());
 			if (handle == nullptr) {
 				stl::report_and_fail(
 					fmt::format(
@@ -500,13 +500,13 @@ namespace REL
 		}
 
 		static constexpr std::array SEGMENTS{
-			std::make_pair(".text"sv, WinAPI::IMAGE_SCN_MEM_EXECUTE),
+			std::make_pair(".text"sv, WinAPI::CLSSE_IMAGE_SCN_MEM_EXECUTE),
 			std::make_pair(".idata"sv, static_cast<std::uint32_t>(0)),
 			std::make_pair(".rdata"sv, static_cast<std::uint32_t>(0)),
 			std::make_pair(".data"sv, static_cast<std::uint32_t>(0)),
 			std::make_pair(".pdata"sv, static_cast<std::uint32_t>(0)),
 			std::make_pair(".tls"sv, static_cast<std::uint32_t>(0)),
-			std::make_pair(".text"sv, WinAPI::IMAGE_SCN_MEM_WRITE),
+			std::make_pair(".text"sv, WinAPI::CLSSE_IMAGE_SCN_MEM_WRITE),
 			std::make_pair(".gfids"sv, static_cast<std::uint32_t>(0))
 		};
 
@@ -632,7 +632,11 @@ namespace REL
 			void read(binary_io::file_istream& a_in)
 			{
 				const auto [format] = a_in.read<std::int32_t>();
+#ifdef SKYRIM_AE
 				if (format != 2) {
+#else
+				if (format != 1) {
+#endif				
 					stl::report_and_fail(
 						fmt::format(
 							"Unsupported address library format: {}\n"
@@ -678,12 +682,18 @@ namespace REL
 		void load()
 		{
 			const auto version = Module::get().version();
+#ifdef SKYRIM_AE		
 			const auto filename =
 				stl::utf8_to_utf16(
 					fmt::format(
 						"Data/SKSE/Plugins/versionlib-{}.bin"sv,
 						version.string()))
 					.value_or(L"<unknown filename>"s);
+#else
+			auto       filename = L"Data/SKSE/Plugins/version-"s;
+			filename += version.wstring();
+			filename += L".bin"sv;
+#endif		
 			load_file(filename, version);
 		}
 

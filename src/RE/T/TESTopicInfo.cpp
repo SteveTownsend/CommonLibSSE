@@ -12,7 +12,11 @@ namespace RE
 	void TESTopicInfo::ResponseData::PopulateResponseText(TESFile* a_file)
 	{
 		using func_t = decltype(&TESTopicInfo::ResponseData::PopulateResponseText);
+#ifdef SKYRIM_AE
 		REL::Relocation<func_t> func{ REL::ID(25491) };
+#else
+		REL::Relocation<func_t> func{ REL::ID(24985) };
+#endif		
 		return func(this, a_file);
 	}
 

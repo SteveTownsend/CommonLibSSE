@@ -23,7 +23,11 @@ namespace RE
 
 		[[nodiscard]] static BSMusicManager* GetSingleton()
 		{
+#ifdef SKYRIM_AE			
 			REL::Relocation<BSMusicManager**> singleton{ REL::ID(400896) };
+#else			
+			REL::Relocation<BSMusicManager**> singleton{ REL::ID(514738) };
+#endif			
 			return *singleton;
 		}
 

@@ -10,7 +10,11 @@ namespace RE
 
 	float Main::QFrameAnimTime()
 	{
+#ifdef SKYRIM_AE
 		REL::Relocation<float*> data{ REL::ID(403447) };
+#else
+		REL::Relocation<float*> data{ REL::ID(516940) };
+#endif		
 		return *data;
 	}
 }

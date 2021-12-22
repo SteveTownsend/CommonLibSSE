@@ -6,7 +6,11 @@ namespace RE
 	{
 		if (IsLocked()) {
 			using func_t = decltype(&REFR_LOCK::GetLockLevel);
+#ifdef SKYRIM_AE
 			REL::Relocation<func_t> func{ REL::ID(12399) };
+#else
+			REL::Relocation<func_t> func{ REL::ID(12272) };
+#endif		
 			return func(this, a_containerRef);
 		} else {
 			return LOCK_LEVEL::kUnlocked;

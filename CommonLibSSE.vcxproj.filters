@@ -1,0 +1,4534 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include=".clang-format" />
+    <None Include="src\.clang-format" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="RE">
+      <UniqueIdentifier>{28a1e522-5192-4795-8884-3341ff0e2736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="REL">
+      <UniqueIdentifier>{067ef500-56a2-4376-b3be-d011d3b8701a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SKSE">
+      <UniqueIdentifier>{e1f44601-64b8-496b-97a2-1b2c1087b6fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SKSE\Impl">
+      <UniqueIdentifier>{9b0ed638-9a9e-4b04-afc2-32dbad32d0d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RE\A">
+      <UniqueIdentifier>{1b894c9c-6cd4-460a-8210-fa65228c4a37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RE\B">
+      <UniqueIdentifier>{88d705e4-448f-45fd-a858-50c4bc6c03ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RE\C">
+      <UniqueIdentifier>{4cd6ffb1-9f5f-45bd-8461-6aed2c95b7a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RE\D">
+      <UniqueIdentifier>{eb2c4e7b-0863-4726-a723-89c8b5e045bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RE\E">
+      <UniqueIdentifier>{86201c4e-2ee2-4ff7-b083-5b19a2280aea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RE\F">
+      <UniqueIdentifier>{b49d7410-05c1-48fa-8bb1-c4aff3c43183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RE\G">
+      <UniqueIdentifier>{1064f5dd-ef94-44df-83d6-b518bd2df03b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RE\H">
+      <UniqueIdentifier>{91705297-41fa-402a-a960-6f4fedebb8bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RE\I">
+      <UniqueIdentifier>{54bc06f9-c127-484c-8730-745f679f51c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RE\J">
+      <UniqueIdentifier>{8e5ff7d0-7429-4bc7-aaf9-2ad7232d1255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RE\K">
+      <UniqueIdentifier>{84f57ed9-25f6-4d8a-a813-b145f8596a16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RE\L">
+      <UniqueIdentifier>{1bd5320a-e146-4666-ad43-dcfcf89e97ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RE\M">
+      <UniqueIdentifier>{35d68f5f-bd78-4ebe-a0d0-3c937bdcf1d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RE\N">
+      <UniqueIdentifier>{795236af-95b8-45ca-932d-b9e4375fb831}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RE\O">
+      <UniqueIdentifier>{7ca65202-b73b-4931-a2af-929f08a274e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RE\P">
+      <UniqueIdentifier>{92098c22-e59f-40b7-81bc-6efaeac755d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RE\Q">
+      <UniqueIdentifier>{5a382979-e244-4eb5-9649-7eb05caf6715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RE\R">
+      <UniqueIdentifier>{2c808449-42bd-4255-a5bf-4c5f41895df6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RE\S">
+      <UniqueIdentifier>{1917641a-341c-4e28-9075-58fba5c48fab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RE\T">
+      <UniqueIdentifier>{bbb0d6d1-b90d-474d-9c31-bcafb761a014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RE\U">
+      <UniqueIdentifier>{8c6dbd06-f127-486b-b57b-9d75403e139d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RE\V">
+      <UniqueIdentifier>{991e431e-2780-4871-849b-42b4f4a19f66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RE\W">
+      <UniqueIdentifier>{d579fd4a-56e7-45cb-acf8-9141c3da829b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RE\Z">
+      <UniqueIdentifier>{69ec4eba-1df8-4858-a8e5-78f84b4f01da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\REL\Relocation.cpp">
+      <Filter>REL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SKSE\Impl\PCH.cpp">
+      <Filter>SKSE\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SKSE\Impl\WinAPI.cpp">
+      <Filter>SKSE\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SKSE\API.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SKSE\IAT.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SKSE\Interfaces.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SKSE\Logger.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SKSE\RegistrationMap.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SKSE\RegistrationSet.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SKSE\Trampoline.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\A\ActiveEffect.cpp">
+      <Filter>RE\A</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\A\Actor.cpp">
+      <Filter>RE\A</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\A\ActorEquipManager.cpp">
+      <Filter>RE\A</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\A\ActorValueOwner.cpp">
+      <Filter>RE\A</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\A\AddCallbackVisitor.cpp">
+      <Filter>RE\A</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\A\AIFormulas.cpp">
+      <Filter>RE\A</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\A\AIProcess.cpp">
+      <Filter>RE\A</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\A\ArmorRatingVisitor.cpp">
+      <Filter>RE\A</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\A\ArmorRatingVisitorBase.cpp">
+      <Filter>RE\A</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\A\Array.cpp">
+      <Filter>RE\A</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BarterMenu.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BGSAttackData.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BGSBaseAlias.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BGSBipedObjectForm.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BGSColorForm.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BGSEntryPointFunctionDataActivateChoice.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BGSEntryPointPerkEntry.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BGSFootstepManager.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BGSHeadPart.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BGSKeywordForm.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BGSListForm.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BGSLocation.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BGSOpenCloseForm.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BGSPerkEntry.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BGSSaveLoadManager.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BGSSoundCategory.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BGSStoryTeller.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\bhkCharProxyController.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BipedAnim.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BookMenu.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BSAtomic.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BSAudioManager.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BSEffectShaderData.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BSExtraData.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BSFixedString.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BSHandleRefObject.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BSInputDevice.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BSInputDeviceManager.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BSLightingShaderMaterialBase.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BSPointerHandle.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BSResourceNiBinaryStream.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BSResponse.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BSScaleformManager.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BSScriptObjectBindPolicy.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BSShaderProperty.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BSSoundHandle.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BSStringPool.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BSSystemFileStorage.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BSTArray.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BSTCreateFactoryManager.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BSVisit.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BSWin32KeyboardDevice.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BSWin32SaveDataSystemUtility.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\B\BSXFlags.cpp">
+      <Filter>RE\B</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\C\Calendar.cpp">
+      <Filter>RE\C</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\C\ChestsLooted.cpp">
+      <Filter>RE\C</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\C\CommandTable.cpp">
+      <Filter>RE\C</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\C\Console.cpp">
+      <Filter>RE\C</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\C\ConsoleLog.cpp">
+      <Filter>RE\C</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\C\ContainerMenu.cpp">
+      <Filter>RE\C</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\C\ControlMap.cpp">
+      <Filter>RE\C</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\E\Effect.cpp">
+      <Filter>RE\E</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\E\ExtraAliasInstanceArray.cpp">
+      <Filter>RE\E</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\E\ExtraAshPileRef.cpp">
+      <Filter>RE\E</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\E\ExtraCannotWear.cpp">
+      <Filter>RE\E</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\E\ExtraCanTalkToPlayer.cpp">
+      <Filter>RE\E</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\E\ExtraCharge.cpp">
+      <Filter>RE\E</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\E\ExtraContainerChanges.cpp">
+      <Filter>RE\E</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\E\ExtraCount.cpp">
+      <Filter>RE\E</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\E\ExtraDataList.cpp">
+      <Filter>RE\E</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\E\ExtraEnchantment.cpp">
+      <Filter>RE\E</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\E\ExtraForcedTarget.cpp">
+      <Filter>RE\E</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\E\ExtraHealth.cpp">
+      <Filter>RE\E</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\E\ExtraHotkey.cpp">
+      <Filter>RE\E</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\E\ExtraLightData.cpp">
+      <Filter>RE\E</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\E\ExtraLock.cpp">
+      <Filter>RE\E</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\E\ExtraMissingLinkedRefIDs.cpp">
+      <Filter>RE\E</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\E\ExtraOwnership.cpp">
+      <Filter>RE\E</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\E\ExtraPoison.cpp">
+      <Filter>RE\E</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\E\ExtraRank.cpp">
+      <Filter>RE\E</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\E\ExtraReferenceHandle.cpp">
+      <Filter>RE\E</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\E\ExtraSoul.cpp">
+      <Filter>RE\E</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\E\ExtraTextDisplayData.cpp">
+      <Filter>RE\E</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\E\ExtraUniqueID.cpp">
+      <Filter>RE\E</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\F\FxDelegate.cpp">
+      <Filter>RE\F</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\F\FxDelegateArgs.cpp">
+      <Filter>RE\F</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\G\GameSettingCollection.cpp">
+      <Filter>RE\G</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\G\GAtomic.cpp">
+      <Filter>RE\G</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\G\GFxLoader.cpp">
+      <Filter>RE\G</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\G\GFxLog.cpp">
+      <Filter>RE\G</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\G\GFxMovie.cpp">
+      <Filter>RE\G</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\G\GFxMovieDef.cpp">
+      <Filter>RE\G</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\G\GFxMovieView.cpp">
+      <Filter>RE\G</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\G\GFxRenderConfig.cpp">
+      <Filter>RE\G</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\G\GFxResource.cpp">
+      <Filter>RE\G</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\G\GFxResourceID.cpp">
+      <Filter>RE\G</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\G\GFxResourceKey.cpp">
+      <Filter>RE\G</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\G\GFxState.cpp">
+      <Filter>RE\G</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\G\GFxStateBag.cpp">
+      <Filter>RE\G</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\G\GFxTranslator.cpp">
+      <Filter>RE\G</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\G\GFxValue.cpp">
+      <Filter>RE\G</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\G\GFxWStringBuffer.cpp">
+      <Filter>RE\G</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\G\GFxWWHelper.cpp">
+      <Filter>RE\G</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\G\GiftMenu.cpp">
+      <Filter>RE\G</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\G\GMemory.cpp">
+      <Filter>RE\G</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\G\GMemoryHeap.cpp">
+      <Filter>RE\G</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\G\GRefCountImpl.cpp">
+      <Filter>RE\G</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\G\GRefCountNTSImpl.cpp">
+      <Filter>RE\G</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\G\GRenderer.cpp">
+      <Filter>RE\G</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\G\GStd.cpp">
+      <Filter>RE\G</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\G\GString.cpp">
+      <Filter>RE\G</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\G\GViewport.cpp">
+      <Filter>RE\G</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\H\HeapBlock.cpp">
+      <Filter>RE\H</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\H\hkBaseTypes.cpp">
+      <Filter>RE\H</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\H\hkpBroadPhase.cpp">
+      <Filter>RE\H</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\H\hkpCdBody.cpp">
+      <Filter>RE\H</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\H\hkpCharacterProxyListener.cpp">
+      <Filter>RE\H</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\H\hkpMaterial.cpp">
+      <Filter>RE\H</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\H\hkpWorldObject.cpp">
+      <Filter>RE\H</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\H\hkReferencedObject.cpp">
+      <Filter>RE\H</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\H\hkStringPtr.cpp">
+      <Filter>RE\H</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\H\HUDMeter.cpp">
+      <Filter>RE\H</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\H\HUDObject.cpp">
+      <Filter>RE\H</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\I\IAnimationGraphManagerHolder.cpp">
+      <Filter>RE\I</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\I\IFormFactory.cpp">
+      <Filter>RE\I</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\I\IFunction.cpp">
+      <Filter>RE\I</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\I\IHandlerFunctor.cpp">
+      <Filter>RE\I</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\I\IMemoryStore.cpp">
+      <Filter>RE\I</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\I\IMenu.cpp">
+      <Filter>RE\I</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\I\INIPrefSettingCollection.cpp">
+      <Filter>RE\I</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\I\INISettingCollection.cpp">
+      <Filter>RE\I</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\I\InputEvent.cpp">
+      <Filter>RE\I</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\I\InterfaceStrings.cpp">
+      <Filter>RE\I</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\I\Inventory.cpp">
+      <Filter>RE\I</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\I\Inventory3DManager.cpp">
+      <Filter>RE\I</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\I\InventoryChanges.cpp">
+      <Filter>RE\I</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\I\InventoryEntryData.cpp">
+      <Filter>RE\I</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\I\IObjectHandlePolicy.cpp">
+      <Filter>RE\I</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\I\IStackCallbackFunctor.cpp">
+      <Filter>RE\I</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\I\ItemCrafted.cpp">
+      <Filter>RE\I</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\I\ItemList.cpp">
+      <Filter>RE\I</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\I\ItemsPickpocketed.cpp">
+      <Filter>RE\I</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\I\IVirtualMachine.cpp">
+      <Filter>RE\I</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\L\LocalMapCamera.cpp">
+      <Filter>RE\L</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\L\Location.cpp">
+      <Filter>RE\L</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\L\LockpickingMenu.cpp">
+      <Filter>RE\L</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\L\LooseFileStream.cpp">
+      <Filter>RE\L</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\M\MagicFavorites.cpp">
+      <Filter>RE\M</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\M\MagicItem.cpp">
+      <Filter>RE\M</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\M\MagicTarget.cpp">
+      <Filter>RE\M</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\M\Main.cpp">
+      <Filter>RE\M</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\M\MemoryPage.cpp">
+      <Filter>RE\M</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\M\MenuControls.cpp">
+      <Filter>RE\M</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\M\MenuEventHandler.cpp">
+      <Filter>RE\M</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\M\MiddleHighProcessData.cpp">
+      <Filter>RE\M</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\M\Misc.cpp">
+      <Filter>RE\M</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\N\NativeFunctionBase.cpp">
+      <Filter>RE\N</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\N\NiAnimationKey.cpp">
+      <Filter>RE\N</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\N\NiAVObject.cpp">
+      <Filter>RE\N</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\N\NiBinaryStream.cpp">
+      <Filter>RE\N</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\N\NiCamera.cpp">
+      <Filter>RE\N</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\N\NiColorData.cpp">
+      <Filter>RE\N</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\N\NiColorKey.cpp">
+      <Filter>RE\N</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\N\NiControllerManager.cpp">
+      <Filter>RE\N</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\N\NiExtraData.cpp">
+      <Filter>RE\N</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\N\NiFloatData.cpp">
+      <Filter>RE\N</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\N\NiFloatKey.cpp">
+      <Filter>RE\N</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\N\NiInterpolator.cpp">
+      <Filter>RE\N</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\N\NiMath.cpp">
+      <Filter>RE\N</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\N\NiMatrix3.cpp">
+      <Filter>RE\N</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\N\NiMemManager.cpp">
+      <Filter>RE\N</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\N\NiNode.cpp">
+      <Filter>RE\N</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\N\NiObject.cpp">
+      <Filter>RE\N</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\N\NiObjectNET.cpp">
+      <Filter>RE\N</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\N\NiPoint3.cpp">
+      <Filter>RE\N</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\N\NiRefObject.cpp">
+      <Filter>RE\N</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\N\NiSkinInstance.cpp">
+      <Filter>RE\N</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\N\NiSystem.cpp">
+      <Filter>RE\N</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\N\NiTCollection.cpp">
+      <Filter>RE\N</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\N\NiTexture.cpp">
+      <Filter>RE\N</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\N\NiTimeController.cpp">
+      <Filter>RE\N</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\O\Object.cpp">
+      <Filter>RE\O</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\O\ObjectTypeInfo.cpp">
+      <Filter>RE\O</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\P\PackedInstructionStream.cpp">
+      <Filter>RE\P</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\P\PackUnpack.cpp">
+      <Filter>RE\P</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\P\PlayerCamera.cpp">
+      <Filter>RE\P</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\P\PlayerCharacter.cpp">
+      <Filter>RE\P</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\P\PlayerControls.cpp">
+      <Filter>RE\P</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\P\PlayerInputHandler.cpp">
+      <Filter>RE\P</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\P\ProcessLists.cpp">
+      <Filter>RE\P</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\R\RemoveCallbackVisitor.cpp">
+      <Filter>RE\R</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\S\ScrapHeap.cpp">
+      <Filter>RE\S</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\S\Script.cpp">
+      <Filter>RE\S</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\S\ScriptEventSourceHolder.cpp">
+      <Filter>RE\S</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\S\Setting.cpp">
+      <Filter>RE\S</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\S\Sky.cpp">
+      <Filter>RE\S</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\S\SkyrimVM.cpp">
+      <Filter>RE\S</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\S\Stack.cpp">
+      <Filter>RE\S</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\S\StackFrame.cpp">
+      <Filter>RE\S</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\S\Stream.cpp">
+      <Filter>RE\S</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\S\StreamBase.cpp">
+      <Filter>RE\S</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\T\TaskQueueInterface.cpp">
+      <Filter>RE\T</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\T\TES.cpp">
+      <Filter>RE\T</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\T\TESAIForm.cpp">
+      <Filter>RE\T</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\T\TESAmmo.cpp">
+      <Filter>RE\T</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\T\TESCamera.cpp">
+      <Filter>RE\T</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\T\TESClimate.cpp">
+      <Filter>RE\T</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\T\TESCondition.cpp">
+      <Filter>RE\T</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\T\TESContainer.cpp">
+      <Filter>RE\T</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\T\TESDataHandler.cpp">
+      <Filter>RE\T</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\T\TESDescription.cpp">
+      <Filter>RE\T</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\T\TESFaction.cpp">
+      <Filter>RE\T</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\T\TESFile.cpp">
+      <Filter>RE\T</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\T\TESForm.cpp">
+      <Filter>RE\T</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\T\TESHavokUtilities.cpp">
+      <Filter>RE\T</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\T\TESHitEvent.cpp">
+      <Filter>RE\T</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\T\TESLeveledList.cpp">
+      <Filter>RE\T</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\T\TESNPC.cpp">
+      <Filter>RE\T</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\T\TESObjectARMA.cpp">
+      <Filter>RE\T</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\T\TESObjectARMO.cpp">
+      <Filter>RE\T</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\T\TESObjectBOOK.cpp">
+      <Filter>RE\T</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\T\TESObjectCELL.cpp">
+      <Filter>RE\T</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\T\TESObjectREFR.cpp">
+      <Filter>RE\T</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\T\TESObjectSTAT.cpp">
+      <Filter>RE\T</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\T\TESObjectWEAP.cpp">
+      <Filter>RE\T</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\T\TESQuest.cpp">
+      <Filter>RE\T</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\T\TESRace.cpp">
+      <Filter>RE\T</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\T\TESTopic.cpp">
+      <Filter>RE\T</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\T\TESTopicInfo.cpp">
+      <Filter>RE\T</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\T\TESWorldSpace.cpp">
+      <Filter>RE\T</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\T\ThumbstickEvent.cpp">
+      <Filter>RE\T</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\T\TypeInfo.cpp">
+      <Filter>RE\T</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\U\UI.cpp">
+      <Filter>RE\U</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\U\UIBlurManager.cpp">
+      <Filter>RE\U</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\U\UIMessageQueue.cpp">
+      <Filter>RE\U</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\U\UserEvents.cpp">
+      <Filter>RE\U</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\V\Variable.cpp">
+      <Filter>RE\V</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\V\VirtualMachine.cpp">
+      <Filter>RE\V</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\Z\ZeroFunctionArguments.cpp">
+      <Filter>RE\Z</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RE\Skyrim.cpp">
+      <Filter>RE</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\REL\Relocation.h">
+      <Filter>REL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SKSE\Impl\PCH.h">
+      <Filter>SKSE\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SKSE\Impl\RegistrationTraits.h">
+      <Filter>SKSE\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SKSE\Impl\Stubs.h">
+      <Filter>SKSE\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SKSE\Impl\WinAPI.h">
+      <Filter>SKSE\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SKSE\API.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SKSE\Events.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SKSE\IAT.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SKSE\Interfaces.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SKSE\Logger.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SKSE\RegistrationMap.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SKSE\RegistrationSet.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SKSE\SKSE.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SKSE\Trampoline.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SKSE\Version.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\AbsorbEffect.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\AbstractHeap.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\ActivateHandler.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\ActiveEffect.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\ActiveEffectReferenceEffectController.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\Actor.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\ActorCause.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\ActorEquipManager.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\ActorKnowledge.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\ActorMover.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\ActorPackage.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\ActorSpeedChannel.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\ActorState.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\ActorTargetCheck.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\ActorValueInfo.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\ActorValueMeter.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\ActorValueOwner.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\ActorValues.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\AddCallbackVisitor.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\ahkpCharacterProxy.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\ahkpWorld.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\AIFormulas.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\AIProcess.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\AITimeStamp.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\AlchemyItem.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\AlchemyMenu.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\Archive.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\ArmorRatingVisitor.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\ArmorRatingVisitorBase.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\Array.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\ArrowProjectile.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\AsyncStream.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\Atmosphere.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\AttachAshPileFunctor.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\AttachedScript.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\AttachTechniqueInput.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\AttackAnimationArrayMap.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\AttackBlockHandler.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\AutoMoveHandler.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\AutoRegisterCreator.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\A\AutoRegisterFactory.h">
+      <Filter>RE\A</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BarrierProjectile.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BarterMenu.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BaseFormComponent.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BeamProjectile.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSAbilityPerkEntry.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSAcousticSpace.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSAction.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSActorEvent.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSAnimationSequencer.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSApparatus.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSArtObject.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSAssociationType.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSAttackData.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSAttackDataForm.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSAttackDataMap.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSBaseAlias.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSBehaviorGraphModel.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSBipedObjectForm.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSBlockBashData.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSBodyPartData.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSBodyPartDefs.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSCameraPath.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSCameraShot.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSCollisionLayer.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSColorForm.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSConstructibleObject.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSDebris.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSDecalGroup.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSDefaultObjectManager.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSDestructibleObjectForm.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSDialogueBranch.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSDirectionalAmbientLightingColors.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSDistantTreeBlock.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSDualCastData.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSEncounterZone.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSEntryPoint.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSEntryPointFunctionData.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSEntryPointFunctionDataActivateChoice.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSEntryPointFunctionDataOneValue.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSEntryPointFunctionDataText.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSEntryPointPerkEntry.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSEquipSlot.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSEquipType.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSExplosion.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSFootstep.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSFootstepEvent.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSFootstepManager.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSFootstepSet.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSHazard.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSHeadPart.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSIdleCollection.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSIdleMarker.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSImpactData.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSImpactDataSet.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSInstancedQuestObjective.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSKeyword.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSKeywordForm.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSLensFlare.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSLightingTemplate.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSListForm.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSLoadGameSubBuffer.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSLocAlias.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSLocalizedStringDL.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSLocation.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSLocationRefType.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSMaterialObject.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSMaterialType.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSMenuDisplayObject.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSMenuIcon.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSMessage.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSMessageIcon.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSMovableStatic.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSMovementType.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSMoviePlayer.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSMusicPaletteTrack.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSMusicSilenceTrack.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSMusicSingleTrack.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSMusicTrack.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSMusicTrackFormWrapper.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSMusicType.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSNamedPackageData.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSNote.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSOpenCloseForm.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSOutfit.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSOverridePackCollection.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSPackageDataBool.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSPackageDataLocation.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSPackageDataPointerTemplate.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSPerk.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSPerkEntry.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSPerkRankArray.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSPickupPutdownSounds.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSPreloadable.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSProcedureTreeBranch.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSProcedureTreeConditionalItem.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSProcedureTreeProcedure.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSProcedureTreeSequence.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSProjectile.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSRagdoll.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSRefAlias.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSReferenceEffect.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSRelationship.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSReverbParameters.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSSaveLoadManager.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSScene.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSSceneAction.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSSceneActionDialogue.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSSceneActionPackage.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSSceneActionTimer.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSShaderParticleGeometryData.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSSkillPerkTreeNode.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSSkinForm.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSSoundCategory.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSSoundDescriptor.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSSoundDescriptorForm.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSSoundOutput.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSStandardSoundDef.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSStaticCollection.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSStoryManagerBranchNode.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSStoryManagerEventNode.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSStoryManagerNodeBase.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSStoryManagerQuestNode.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSStoryManagerTreeForm.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSStoryTeller.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSTalkingActivator.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSTextureModel.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSTextureSet.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSTypedItem.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSVoiceType.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BGSVolumetricLighting.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\bhkCachingShapePhantom.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\bhkCharacterController.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\bhkCharacterPointCollector.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\bhkCharacterProxy.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\bhkCharacterState.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\bhkCharacterStateClimbing.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\bhkCharacterStateFlying.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\bhkCharacterStateInAir.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\bhkCharacterStateJumping.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\bhkCharacterStateOnGround.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\bhkCharacterStateSwimming.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\bhkCharProxyController.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\bhkCollisionObject.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\bhkEntity.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\bhkListShape.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\bhkNiCollisionObject.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\bhkPhantom.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\bhkRefObject.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\bhkRigidBody.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\bhkSerializable.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\bhkShape.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\bhkShapeCollection.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\bhkShapePhantom.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\bhkThreadMemorySource.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\bhkWorld.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\bhkWorldObject.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BipedAnim.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BipedObjects.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BleedoutCameraState.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BookMenu.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BottomBar.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSAnimationGraphChannel.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSAnimationGraphEvent.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSAnimationGraphManager.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSAnimNote.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSAnimNoteListener.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSArchive.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSArchiveHeader.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSAtomic.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSAudioManager.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSAudioManagerThread.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSBatchRenderer.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSBitField.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSBound.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSCoreTypes.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSCullingProcess.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSDismemberSkinInstance.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSEffectShaderData.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSExtraData.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSFaceGenAnimationData.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSFaceGenKeyframe.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSFaceGenKeyframeMultiple.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSFaceGenNiNode.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSFadeNode.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSFile.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSFixedString.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSFurnitureMarkerNode.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSGamepadDevice.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSGameSound.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSGeometry.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSHandleRefObject.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BShkbAnimationGraph.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSIInputDevice.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSImagespaceShader.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSImagespaceShaderBlur3.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSIMusicTrack.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSIMusicType.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSInputDevice.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSInputDeviceManager.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSIntrusiveRefCounted.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSIRagdollDriver.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSIReverbType.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSISoundCategory.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSISoundDescriptor.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSISoundOutputModel.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSKeyboardDevice.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSLensFlareRenderData.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSLightingShaderMaterial.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSLightingShaderMaterialBase.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSLightingShaderMaterialEnvmap.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSLightingShaderMaterialEye.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSLightingShaderMaterialFacegen.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSLightingShaderMaterialFacegenTint.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSLightingShaderMaterialGlowmap.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSLightingShaderMaterialHairTint.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSLightingShaderMaterialLandscape.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSLightingShaderMaterialMultiLayerParallax.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSLightingShaderMaterialParallax.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSLightingShaderMaterialParallaxOcc.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSLightingShaderMaterialSnow.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSLightingShaderProperty.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSMaterialObject.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSMouseDevice.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSMultiBoundNode.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSMultiIndexTriShape.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSMusicEvent.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSMusicManager.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSNavmesh.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSNavmeshInfoMap.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSNiAllocator.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSNiNode.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSPathingCell.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSPCGamepadDeviceDelegate.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSPCGamepadDeviceHandler.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSPointerHandle.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSPointerHandleManager.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSPointerHandleSmartPointer.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSPrecomputedNavmeshInfoPathMap.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSReloadShaderI.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSResourceNiBinaryStream.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSResponse.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSSaveDataSystemUtility.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSScaleformManager.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSScaleformTranslator.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSScriptObjectBindPolicy.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSShader.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSShaderMaterial.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSShaderProperty.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSSmallBlockAllocator.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSSoundHandle.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSStorage.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSString.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSStringPool.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSSystemFile.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSSystemFileStorage.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSTAnimationGraphDataChannel.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSTArray.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSTCaseInsensitiveStringMap.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSTCreateFactoryManager.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSTDerivedCreator.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSTempEffect.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSTempEffectDebris.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSTempEffectGeometryDecal.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSTempEffectParticle.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSTempEffectSimpleDecal.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSTempEffectSPG.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSTempEffectWeaponBlood.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSTEvent.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSTextureSet.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSTFreeList.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSTHashMap.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSThread.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSThreadEvent.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSTimer.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSTList.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSTLocklessQueue.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSTMessageQueue.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSTObjectDictionary.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSTPoint.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSTPointerAndFlags.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSTriShape.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSTSingleton.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSTSmartPointer.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSTTuple.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSUIMessageData.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSUIScaleformData.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSVirtualKeyboardDevice.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSVisit.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSVolumetricLightingRenderData.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSWin32GamepadDevice.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSWin32KeyboardDevice.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSWin32MouseDevice.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSWin32SaveDataSystemUtility.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSWin32VirtualKeyboardDevice.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSXAudio2GameSound.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\BSXFlags.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\B\ButtonEvent.h">
+      <Filter>RE\B</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\C\Calendar.h">
+      <Filter>RE\C</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\C\CFilter.h">
+      <Filter>RE\C</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\C\Character.h">
+      <Filter>RE\C</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\C\ChestsLooted.h">
+      <Filter>RE\C</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\C\Clouds.h">
+      <Filter>RE\C</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\C\CodeTasklet.h">
+      <Filter>RE\C</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\C\CollisionLayers.h">
+      <Filter>RE\C</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\C\Color.h">
+      <Filter>RE\C</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\C\CombatGroupDetectionListener.h">
+      <Filter>RE\C</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\C\CommandTable.h">
+      <Filter>RE\C</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\C\CommonTypeTraits.h">
+      <Filter>RE\C</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\C\CompactingStore.h">
+      <Filter>RE\C</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\C\CompiledScriptLoader.h">
+      <Filter>RE\C</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\C\ConcreteFormFactory.h">
+      <Filter>RE\C</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\C\ConcreteObjectFormFactory.h">
+      <Filter>RE\C</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\C\ConeProjectile.h">
+      <Filter>RE\C</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\C\Console.h">
+      <Filter>RE\C</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\C\ConsoleData.h">
+      <Filter>RE\C</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\C\ConsoleLog.h">
+      <Filter>RE\C</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\C\ConsoleNativeUIMenu.h">
+      <Filter>RE\C</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\C\ConstructibleObjectMenu.h">
+      <Filter>RE\C</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\C\ContainerItemExtra.h">
+      <Filter>RE\C</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\C\ContainerMenu.h">
+      <Filter>RE\C</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\C\ControlMap.h">
+      <Filter>RE\C</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\C\CraftingMenu.h">
+      <Filter>RE\C</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\C\CraftingSubMenu.h">
+      <Filter>RE\C</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\C\CRC.h">
+      <Filter>RE\C</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\C\CreationClubMenu.h">
+      <Filter>RE\C</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\C\CreditsMenu.h">
+      <Filter>RE\C</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\C\Crime.h">
+      <Filter>RE\C</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\C\CursorMenu.h">
+      <Filter>RE\C</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\D\DecalData.h">
+      <Filter>RE\D</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\D\DefaultObjectsReadyEvent.h">
+      <Filter>RE\D</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\D\DelayFunctor.h">
+      <Filter>RE\D</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\D\DepthStencilDepthModes.h">
+      <Filter>RE\D</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\D\DetectionListener.h">
+      <Filter>RE\D</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\D\DetectionPriorities.h">
+      <Filter>RE\D</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\D\DetectionState.h">
+      <Filter>RE\D</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\D\DeviceConnectEvent.h">
+      <Filter>RE\D</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\D\DevNull.h">
+      <Filter>RE\D</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\D\DialogueItem.h">
+      <Filter>RE\D</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\D\DialogueMenu.h">
+      <Filter>RE\D</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\D\DialoguePackage.h">
+      <Filter>RE\D</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\D\DialogueTypes.h">
+      <Filter>RE\D</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\D\DoNothingUnhandledPolicy.h">
+      <Filter>RE\D</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\D\DropObjectFunctor.h">
+      <Filter>RE\D</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\Effect.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\EffectArchetypes.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\EffectSetting.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\EnchantConstructMenu.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\EnchantmentItem.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ErrorCodes.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ErrorLogger.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraAction.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraActivateLoopSound.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraActivateRef.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraActivateRefChildren.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraActorCause.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraAliasInstanceArray.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraAlphaCutoff.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraAmmo.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraAnimationSequencer.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraAnimGraphManager.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraAnimNoteReceiver.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraAshPileRef.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraAttachedArrows3D.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraAttachRef.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraAttachRefChildren.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraBadPosition.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraBiped.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraCachedScale.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraCannotWear.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraCanTalkToPlayer.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraCell3D.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraCellAcousticSpace.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraCellGrassData.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraCellImageSpace.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraCellMusicType.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraCellSkyRegion.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraCellWaterEnvMap.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraCellWaterType.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraCharge.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraCollisionData.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraCombatStyle.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraContainerChanges.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraCount.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraCreatureAwakeSound.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraCreatureMovementSound.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraDataList.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraDataTypes.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraDecalGroup.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraDetachTime.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraDismemberedLimbs.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraDistantData.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraDroppedItemList.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraEditorID.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraEditorRef3DData.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraEditorRefMoveData.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraEmittanceSource.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraEnableStateChildren.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraEnableStateParent.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraEnchantment.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraEncounterZone.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraFactionChanges.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraFavorCost.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraFlags.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraFollower.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraFollowerSwimBreadcrumbs.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraForcedLandingMarker.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraForcedTarget.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraFriendHits.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraFromAlias.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraGhost.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraGIDBuffer.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraGlobal.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraGroupConstraint.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraGuardedRefData.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraHasNoRumors.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraHavok.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraHeadingTarget.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraHeadTrackingWeight.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraHealth.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraHealthPerc.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraHorse.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraHotkey.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraIgnoredBySandbox.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraInfoGeneralTopic.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraInteraction.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraItemDropper.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraLargeRefOwnerCells.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraLastFinishedSequence.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraLevCreaModifier.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraLeveledCreature.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraLeveledItem.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraLeveledItemBase.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraLight.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraLightData.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraLinkedRef.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraLinkedRefChildren.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraLitWaterRefs.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraLocation.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraLocationRefType.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraLock.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraLockList.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraMagicCaster.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraMagicLight.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraMapMarker.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraMissingLinkedRefIDs.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraMissingRefIDs.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraModelSwap.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraMultiBound.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraMultiBoundRef.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraNavMeshPortal.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraNorthRotation.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraObjectHealth.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraOcclusionPlaneRefData.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraOcclusionShape.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraOpenCloseActivateRef.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraOriginalReference.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraOutfitItem.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraOwnership.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraPackage.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraPackageData.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraPackageStartLocation.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraPatrolRefData.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraPatrolRefInUseData.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraPersistentCell.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraPlayerCrimeList.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraPoison.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraPortal.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraPortalRefData.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraPrimitive.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraProcessMiddleLow.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraPromotedRef.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraRaceData.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraRadius.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraRagDollData.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraRandomTeleportMarker.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraRank.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraReferenceHandle.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraReflectedRefs.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraReflectorRefs.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraRefractionProperty.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraRefrPath.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraRegionList.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraReservedMarkers.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraResourcesPreload.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraRoom.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraRoomRefData.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraRunOncePacks.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraSavedAnimation.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraSavedHavokData.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraSayTopicInfoOnceADay.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraSayToTopicInfo.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraScale.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraSceneData.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraScriptedAnimDependence.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraSeenData.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraShouldWear.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraSoul.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraSound.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraSpawnContainer.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraStartingPosition.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraStartingWorldOrCell.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraTeleport.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraTeleportName.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraTerminalState.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraTextDisplayData.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraTimeLeft.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraTresPassPackage.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraUniqueID.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraUsedMarkers.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraWaterCurrentZoneData.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraWaterData.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraWaterLightRefs.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraWeaponAttackSound.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraWeaponIdleSound.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraWorn.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\E\ExtraWornLeft.h">
+      <Filter>RE\E</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\F\FactionRank.h">
+      <Filter>RE\F</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\F\FaderMenu.h">
+      <Filter>RE\F</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\F\FavoritesHandler.h">
+      <Filter>RE\F</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\F\FavoritesMenu.h">
+      <Filter>RE\F</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\F\FightReactions.h">
+      <Filter>RE\F</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\F\FileID.h">
+      <Filter>RE\F</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\F\FirstPersonState.h">
+      <Filter>RE\F</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\F\FlameProjectile.h">
+      <Filter>RE\F</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\F\FORM.h">
+      <Filter>RE\F</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\F\FormTraits.h">
+      <Filter>RE\F</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\F\FormTypes.h">
+      <Filter>RE\F</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\F\FragmentSystem.h">
+      <Filter>RE\F</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\F\FunctionArguments.h">
+      <Filter>RE\F</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\F\FunctionMessage.h">
+      <Filter>RE\F</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\F\FxDelegate.h">
+      <Filter>RE\F</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\F\FxDelegateArgs.h">
+      <Filter>RE\F</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\F\FxDelegateHandler.h">
+      <Filter>RE\F</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\F\FxResponseArgs.h">
+      <Filter>RE\F</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\F\FxResponseArgsBase.h">
+      <Filter>RE\F</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GAllocator.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GAllocatorBaseGH.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GameSettingCollection.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GArray.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GArrayBase.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GArrayData.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GArrayDataBase.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GArrayDefaultPolicy.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GAtomic.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GColor.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GConstructorMov.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GFixedSizeHash.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GFxActionControl.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GFxEvent.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GFxExternalInterface.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GFxFileConstants.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GFxFunctionHandler.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GFxKey.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GFxKeyboardState.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GFxLoader.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GFxLog.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GFxLogBase.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GFxLogConstants.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GFxMovie.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GFxMovieDef.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GFxMovieRoot.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GFxMovieView.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GFxPlayerStats.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GFxRenderConfig.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GFxResource.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GFxResourceID.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GFxResourceKey.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GFxSpecialKeysState.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GFxState.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GFxStateBag.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GFxTranslator.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GFxValue.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GFxWStringBuffer.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GFxWWHelper.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GHash.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GHashNode.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GHashSet.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GHashSetBase.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GHashsetCachedEntry.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GHashsetCachedNodeEntry.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GiftMenu.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GImage.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GImageBase.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GList.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GlobalLocations.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GlobalPaths.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GMath.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GMatrix2D.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GMatrix3D.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GMemory.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GMemoryHeap.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GNewOverrideBase.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GPoint.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GPtr.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GRect.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GRefCountBase.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GRefCountBaseNTS.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GRefCountBaseStatImpl.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GRefCountImpl.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GRefCountImplCore.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GRefCountNTSImpl.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GrenadeProjectile.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GRenderer.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GRendererEventHandler.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GridArray.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GridCellArray.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GStats.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GStd.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GString.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GSysAllocBase.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GSysAllocPaged.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GTexture.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\G\GViewport.h">
+      <Filter>RE\G</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\HandleManager.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\HandlePolicy.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\Hazard.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\HeapBlock.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\HeapBlockFreeHead.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\HeldStateHandler.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\HighProcessData.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkAabb.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkArray.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkBaseObject.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkBaseTypes.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkbBehaviorGraph.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkbBindable.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkbCharacter.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkbEvent.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkbEventBase.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkbGenerator.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkbNode.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkbRagdollDriver.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkbStateMachine.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkContactPoint.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkContainerAllocators.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkMatrix3.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkMemoryAllocator.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkMoppBvTreeShapeBase.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkMotionState.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkMultiThreadCheck.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkp3AxisSweep.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpAgentNnTrack.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpAllCdPointCollector.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpBroadPhase.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpBroadPhaseCastCollector.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpBroadPhaseHandle.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpBvTreeShape.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpCachingShapePhantom.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpCdBody.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpCdPointCollector.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpCharacterContext.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpCharacterControl.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpCharacterProxy.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpCharacterProxyListener.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpCharacterState.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpCharacterStateManager.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpCollidable.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpCollisionInput.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpConstraintInfo.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpConstraintOwner.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpEntity.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpEntityListener.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpFixedRigidMotion.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpKeyframedRigidMotion.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpLinearCastCollisionInput.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpLinearCastInput.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpLinkedCollidable.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpListShape.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpMaterial.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpMoppAabbCastVirtualMachine.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpMoppBvTreeShape.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpMoppCode.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpMotion.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpPhantom.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpPhantomListener.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpPhantomType.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpProperty.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpRigidBody.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpRootCdPoint.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpShape.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpShapeBuffer.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpShapeCollection.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpShapeContainer.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpShapePhantom.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpShapeRayCastCollectorOutput.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpShapeRayCastOutput.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpShapeType.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpSimplexSolver.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpSimulationIsland.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpSingleShapeContainer.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpSolverInfo.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpTypedBroadPhaseHandle.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpWeldingUtility.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpWorld.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpWorldCinfo.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpWorldLinearCaster.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpWorldObject.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpWorldRayCastInput.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkpWorldRayCastOutput.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkQuaternion.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkReferencedObject.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkRefPtr.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkRefVariant.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkRotation.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkSmallArray.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkSseMathTypes.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkStepInfo.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkStringPtr.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkSweptTransform.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkTransform.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\hkVector4.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\HUDData.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\HUDMenu.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\HUDMeter.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\HUDNotifications.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\H\HUDObject.h">
+      <Filter>RE\H</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IAIWorldLocationHandle.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IAnimationGraphManagerHolder.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IAnimationSetCallbackFunctor.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IBSTCreator.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\ICellAttachDetachEventSource.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\ID.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IDEvent.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IFormFactory.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IFreezeQuery.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IFuncCallQuery.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IFunction.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IFunctionArguments.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IHandlerFunctor.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\ILoader.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\ImageData.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\ImageSpaceEffect.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\ImageSpaceEffectParam.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\ImageSpaceModifierInstance.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\ImageSpaceModifierInstanceDOF.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\ImageSpaceModifierInstanceTemp.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\ImageSpaceShaderParam.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IMapCameraCallbacks.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IMemoryHeap.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IMemoryPagePolicy.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IMemoryStore.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IMemoryStoreBase.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IMenu.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IMessageBoxCallback.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IMovementControllerRegisterInterface.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IMovementDirectControl.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IMovementInterface.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IMovementMessageInterface.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IMovementMotionDrivenControl.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IMovementPlannerDirectControl.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IMovementSelectIdle.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IMovementState.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\ImpactResults.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\Info.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IngredientItem.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\INIPrefSettingCollection.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\INISettingCollection.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\InputDevices.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\InputEvent.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\InterfaceStrings.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\InteriorData.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\Inventory.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\Inventory3DManager.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\InventoryChanges.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\InventoryEntryData.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\InventoryMenu.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\InventoryUpdateData.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IObjectHandlePolicy.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IObjectProcessor.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IPackageData.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IPackageDataAIWorldLocationHandle.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IPostAnimationChannelUpdateFunctor.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IProcedureTreeItem.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IProfilePolicy.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\ISavePatcherInterface.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IStackCallbackFunctor.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IStackCallbackSaveInterface.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IStore.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\ItemCard.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\ItemCrafted.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\ItemList.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\ItemsPickpocketed.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IUIMessageData.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IVirtualMachine.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IVMDebugInterface.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IVMObjectBindInterface.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IVMSaveLoadInterface.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\I\IXAudio2VoiceCallback.h">
+      <Filter>RE\I</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\J\Journal_QuestsTab.h">
+      <Filter>RE\J</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\J\Journal_StatsTab.h">
+      <Filter>RE\J</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\J\Journal_SystemTab.h">
+      <Filter>RE\J</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\J\JournalMenu.h">
+      <Filter>RE\J</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\J\JournalTab.h">
+      <Filter>RE\J</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\J\JumpHandler.h">
+      <Filter>RE\J</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\K\KinectEvent.h">
+      <Filter>RE\K</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\K\KinectMenu.h">
+      <Filter>RE\K</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\L\LevelUpMenu.h">
+      <Filter>RE\L</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\L\LinkerProcessor.h">
+      <Filter>RE\L</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\L\LoadingMenu.h">
+      <Filter>RE\L</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\L\LoadWaitSpinner.h">
+      <Filter>RE\L</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\L\LocalMapCamera.h">
+      <Filter>RE\L</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\L\LocalMapMenu.h">
+      <Filter>RE\L</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\L\Location.h">
+      <Filter>RE\L</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\L\LocationTraverser.h">
+      <Filter>RE\L</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\L\LocationTree.h">
+      <Filter>RE\L</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\L\LockpickingMenu.h">
+      <Filter>RE\L</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\L\LogEvent.h">
+      <Filter>RE\L</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\L\Logger.h">
+      <Filter>RE\L</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\L\LoggingDisabler.h">
+      <Filter>RE\L</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\L\LookHandler.h">
+      <Filter>RE\L</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\L\LooseFileLocation.h">
+      <Filter>RE\L</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\L\LooseFileStream.h">
+      <Filter>RE\L</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\L\LooseFileStreamBase.h">
+      <Filter>RE\L</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\MagicCaster.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\MagicFavorites.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\MagicItem.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\MagicMenu.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\MagicSystem.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\MagicTarget.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\Main.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\MainMenu.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\MapCamera.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\MapInputHandler.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\MapLookHandler.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\MapMenu.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\MapMoveHandler.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\MapZoomHandler.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\MarkerUsedData.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\MemoryHeap.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\MemoryManager.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\MemoryPage.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\MenuControls.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\MenuEventHandler.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\MenuOpenCloseEvent.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\MenuOpenHandler.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\MenuTopicManager.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\MessageBoxData.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\MessageBoxMenu.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\MiddleHighProcessData.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\Misc.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\MissileProjectile.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\MistMenu.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\ModelReferenceEffect.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\ModManagerMenu.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\Moon.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\MouseMoveEvent.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\Movement.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\MovementControllerAI.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\MovementControllerNPC.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\MovementHandler.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\MoveToFunctor.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\MoviePlayer.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\M\MultiBoundMarkerData.h">
+      <Filter>RE\M</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NativeFunction.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NativeFunctionBase.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NavMesh.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NavMeshInfoMap.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiAllocator.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiAlphaProperty.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiAnimationKey.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiAVObject.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiBinaryStream.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiBoneMatrixSetterI.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiBound.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiCamera.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiCollisionObject.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiColor.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiColorData.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiColorInterpolator.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiColorKey.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiControllerManager.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiControllerSequence.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiCullingProcess.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiExtraData.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiFile.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiFloatData.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiFloatInterpolator.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiFloatKey.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiFrustum.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiFrustumPlanes.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiGeometryData.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiIntegerExtraData.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiInterpController.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiInterpolator.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiKeyBasedInterpolator.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiMath.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiMatrix3.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiMemManager.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiMultiTargetTransformController.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiNode.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiObject.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiObjectNET.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiPlane.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiPoint2.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiPoint3.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiProperty.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiQuaternion.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiRect.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiRefObject.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiRTTI.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiShadeProperty.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiSkinData.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiSkinInstance.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiSkinPartition.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiSmartPointer.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiSourceTexture.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiStream.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiStringsExtraData.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiSystem.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiTArray.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiTCollection.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiTDefaultAllocator.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiTexture.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiTimeController.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiTList.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiTListBase.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiTMap.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiTMapBase.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiTPointerAllocator.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiTPointerListBase.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiTPointerMap.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiTransform.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiTSet.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NiTStringMap.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\N\NonActorMagicTarget.h">
+      <Filter>RE\N</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\O\Object.h">
+      <Filter>RE\O</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\O\ObjectTypeInfo.h">
+      <Filter>RE\O</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\O\OldMessageBoxCallback.h">
+      <Filter>RE\O</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\P\PackageLocation.h">
+      <Filter>RE\P</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\P\PackedInstructionStream.h">
+      <Filter>RE\P</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\P\PackUnpack.h">
+      <Filter>RE\P</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\P\PackUnpackImpl.h">
+      <Filter>RE\P</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\P\PathingCell.h">
+      <Filter>RE\P</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\P\PCGamepadType.h">
+      <Filter>RE\P</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\P\PerkEntryVisitor.h">
+      <Filter>RE\P</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\P\PerkRankVisitor.h">
+      <Filter>RE\P</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\P\PlayerCamera.h">
+      <Filter>RE\P</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\P\PlayerCharacter.h">
+      <Filter>RE\P</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\P\PlayerControls.h">
+      <Filter>RE\P</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\P\PlayerControlsData.h">
+      <Filter>RE\P</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\P\PlayerInputHandler.h">
+      <Filter>RE\P</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\P\PoisonedWeapon.h">
+      <Filter>RE\P</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\P\PositionPlayerEvent.h">
+      <Filter>RE\P</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\P\Precipitation.h">
+      <Filter>RE\P</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\P\PrecomputedNavmeshInfoPathMap.h">
+      <Filter>RE\P</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\P\ProcessLists.h">
+      <Filter>RE\P</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\P\Profiler.h">
+      <Filter>RE\P</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\P\Projectile.h">
+      <Filter>RE\P</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\P\PropertyTypeInfo.h">
+      <Filter>RE\P</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\Q\QuestEvents.h">
+      <Filter>RE\Q</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\Q\QuestObjectiveStates.h">
+      <Filter>RE\Q</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\R\RaceSexCamera.h">
+      <Filter>RE\R</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\R\RaceSexMenu.h">
+      <Filter>RE\R</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\R\RaceSexMenuEvent.h">
+      <Filter>RE\R</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\R\RawFuncCallQuery.h">
+      <Filter>RE\R</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\R\ReadyWeaponHandler.h">
+      <Filter>RE\R</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\R\RefActivateData.h">
+      <Filter>RE\R</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\R\RefAttachTechniqueInput.h">
+      <Filter>RE\R</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\R\ReferenceArray.h">
+      <Filter>RE\R</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\R\ReferenceEffect.h">
+      <Filter>RE\R</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\R\ReferenceEffectController.h">
+      <Filter>RE\R</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\R\RefrInteraction.h">
+      <Filter>RE\R</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\R\RegisterPrefix.h">
+      <Filter>RE\R</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\R\RegSettingCollection.h">
+      <Filter>RE\R</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\R\RemoveCallbackVisitor.h">
+      <Filter>RE\R</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\R\RemoveItemFunctor.h">
+      <Filter>RE\R</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\R\Request.h">
+      <Filter>RE\R</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\R\RunHandler.h">
+      <Filter>RE\R</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\SafeZoneMenu.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\SavePatcher.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\ScrapHeap.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\Script.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\ScriptEventSourceHolder.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\ScriptFunction.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\ScrollItem.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\SendPlayerToJailFunctor.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\SetEventData.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\SetMotionTypeFunctor.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\SetPositionFunctor.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\Setting.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\SettingCollection.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\SettingCollectionList.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\SettingCollectionMap.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\SettingT.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\Sexes.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\SFTypes.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\ShaderReferenceEffect.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\ShadowSceneNode.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\ShoutHandler.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\ShoutMeter.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\SimpleAllocMemoryPagePolicy.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\SimpleAnimationGraphManagerHolder.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\Sky.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\SkyEffectController.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\SkyObject.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\SkyrimScriptObjectBindPolicy.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\SkyrimScriptStore.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\SkyrimVM.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\SleepWaitMenu.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\SmithingMenu.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\SneakHandler.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\SoulLevels.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\SoundLevels.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\SpellItem.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\SprintHandler.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\Stack.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\StackFrame.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\StandardItemData.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\Stars.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\State.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\StatsEvent.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\StatsMenu.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\StatsNode.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\StealthMeter.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\Stream.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\StreamBase.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\SummonCreatureEffect.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\SummonPlacementEffect.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\Sun.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\SuspendedStack.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\S\SyncQueueObj.h">
+      <Filter>RE\S</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TaskQueueInterface.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TES.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESActivateEvent.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESActiveEffectApplyRemoveEvent.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESActorBase.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESActorBaseData.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESAIForm.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESAmmo.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESAttackDamageForm.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESBipedModelForm.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESBoundAnimObject.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESBoundObject.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESCamera.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESCameraState.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESCellFullyLoadedEvent.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESChildCell.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESClass.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESClimate.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESCombatEvent.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESCombatStyle.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESCondition.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESContainer.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESContainerChangedEvent.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESCustomPackageData.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESDataHandler.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESDeathEvent.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESDescription.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESEffectShader.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESEnchantableForm.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESEquipEvent.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESEyes.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESFaction.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESFile.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESFlora.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESForm.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESFullName.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESFurniture.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESFurnitureEvent.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESGlobal.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESGrabReleaseEvent.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESGrass.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESHavokUtilities.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESHitEvent.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESIcon.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESIdleForm.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESImageSpace.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESImageSpaceModifiableForm.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESImageSpaceModifier.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESInitScriptEvent.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESKey.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESLandTexture.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESLevCharacter.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESLeveledList.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESLevItem.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESLevSpell.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESLoadGameEvent.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESLoadScreen.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESLockChangedEvent.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESMagicCasterForm.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESMagicEffectApplyEvent.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESMagicTargetForm.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESModel.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESModelPSA.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESModelRDT.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESModelTextureSwap.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESModelTri.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESMoveAttachDetachEvent.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESNPC.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESObject.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESObjectACTI.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESObjectANIO.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESObjectARMA.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESObjectARMO.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESObjectBOOK.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESObjectCELL.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESObjectCONT.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESObjectDOOR.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESObjectLAND.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESObjectLIGH.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESObjectLoadedEvent.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESObjectMISC.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESObjectREFR.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESObjectSTAT.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESObjectTREE.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESObjectWEAP.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESOpenCloseEvent.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESPackage.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESPackageData.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESProduceForm.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESQualityForm.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESQuest.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESQuestStageItem.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESRace.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESRaceForm.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESReactionForm.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESRegion.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESRegionData.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESRegionDataLandscape.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESRegionDataManager.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESRegionDataMap.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESRegionDataSound.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESRegionDataWeather.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESRegionList.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESResetEvent.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESShout.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESSoulGem.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESSound.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESSpellList.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESSwitchRaceCompleteEvent.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESTexture.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESTexture1024.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESTopic.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESTopicInfo.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESTrackedStatsEvent.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESUniqueIDChangeEvent.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESValueForm.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESWaitStopEvent.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESWaterForm.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESWeather.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESWeightForm.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESWordOfPower.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TESWorldSpace.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TextureAddressModes.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\ThirdPersonState.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\ThumbstickEvent.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TitleSequenceMenu.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TogglePOVHandler.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\ToggleRunHandler.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TrainingMenu.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TutorialMenu.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TweenMenu.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TypeInfo.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\T\TypeTraits.h">
+      <Filter>RE\T</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\U\UI.h">
+      <Filter>RE\U</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\U\UIBlurManager.h">
+      <Filter>RE\U</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\U\UIMessage.h">
+      <Filter>RE\U</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\U\UIMessageQueue.h">
+      <Filter>RE\U</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\U\UISaveLoadManager.h">
+      <Filter>RE\U</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\U\UserEventEnabled.h">
+      <Filter>RE\U</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\U\UserEvents.h">
+      <Filter>RE\U</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\V\ValueModifierEffect.h">
+      <Filter>RE\V</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\V\Variable.h">
+      <Filter>RE\V</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\V\VDescTable.h">
+      <Filter>RE\V</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\V\VirtualMachine.h">
+      <Filter>RE\V</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\W\WeatherType.h">
+      <Filter>RE\W</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\Z\ZeroFunctionArguments.h">
+      <Filter>RE\Z</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\Z\ZeroOverheadHeap.h">
+      <Filter>RE\Z</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\Offsets.h">
+      <Filter>RE</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\Offsets_NiRTTI.h">
+      <Filter>RE</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\Offsets_RTTI.h">
+      <Filter>RE</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\RTTI.h">
+      <Filter>RE</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE\Skyrim.h">
+      <Filter>RE</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

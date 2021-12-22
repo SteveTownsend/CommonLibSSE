@@ -1,2 +1,5 @@
 /build*
 CMakeUserPresets.json
+/x64
+*.user
+

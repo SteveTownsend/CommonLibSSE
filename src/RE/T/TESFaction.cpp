@@ -258,7 +258,11 @@ namespace RE
 	void TESFaction::SetFactionFightReaction(TESFaction* a_faction, FIGHT_REACTION a_fightReaction)
 	{
 		using func_t = decltype(&TESFaction::SetFactionFightReaction);
+#ifdef SKYRIM_AE
 		REL::Relocation<func_t> func{ REL::ID(24516) };
+#else
+		REL::Relocation<func_t> func{ REL::ID(24012) };
+#endif		
 		return func(this, a_faction, a_fightReaction);
 	}
 

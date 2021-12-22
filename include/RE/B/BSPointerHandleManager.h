@@ -27,7 +27,11 @@ namespace RE
 
 		[[nodiscard]] static auto GetHandleEntries()
 		{
+#ifdef SKYRIM_AE			
 			REL::Relocation<Entry(*)[0x100000]> entries{ REL::ID(400622) };
+#else			
+			REL::Relocation<Entry(*)[0x100000]> entries{ REL::ID(514478) };
+#endif			
 			return std::span<Entry, 0x100000>{ *entries };
 		}
 	};

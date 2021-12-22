@@ -29,42 +29,66 @@ namespace RE
 		[[nodiscard]] static MemoryManager* GetSingleton()
 		{
 			using func_t = decltype(&MemoryManager::GetSingleton);
+#ifdef SKYRIM_AE			
 			REL::Relocation<func_t> func{ REL::ID(11141) };
+#else			
+			REL::Relocation<func_t> func{ REL::ID(11045) };
+#endif			
 			return func();
 		}
 
 		[[nodiscard]] void* Allocate(std::size_t a_size, std::int32_t a_alignment, bool a_alignmentRequired)
 		{
 			using func_t = decltype(&MemoryManager::Allocate);
+#ifdef SKYRIM_AE			
 			REL::Relocation<func_t> func{ REL::ID(68115) };
+#else			
+			REL::Relocation<func_t> func{ REL::ID(66859) };
+#endif			
 			return func(this, a_size, a_alignment, a_alignmentRequired);
 		}
 
 		void Deallocate(void* a_mem, bool a_alignmentRequired)
 		{
 			using func_t = decltype(&MemoryManager::Deallocate);
+#ifdef SKYRIM_AE			
 			REL::Relocation<func_t> func{ REL::ID(68117) };
+#else			
+			REL::Relocation<func_t> func{ REL::ID(66861) };
+#endif			
 			return func(this, a_mem, a_alignmentRequired);
 		}
 
 		[[nodiscard]] ScrapHeap* GetThreadScrapHeap()
 		{
 			using func_t = decltype(&MemoryManager::GetThreadScrapHeap);
+#ifdef SKYRIM_AE			
 			REL::Relocation<func_t> func{ REL::ID(68088) };
+#else			
+			REL::Relocation<func_t> func{ REL::ID(66841) };
+#endif			
 			return func(this);
 		}
 
 		[[nodiscard]] void* Reallocate(void* a_oldMem, std::size_t a_newSize, std::int32_t a_alignment, bool a_aligned)
 		{
 			using func_t = decltype(&MemoryManager::Reallocate);
+#ifdef SKYRIM_AE			
 			REL::Relocation<func_t> func{ REL::ID(68116) };
+#else			
+			REL::Relocation<func_t> func{ REL::ID(66860) };
+#endif			
 			return func(this, a_oldMem, a_newSize, a_alignment, a_aligned);
 		}
 
 		void RegisterMemoryManager()
 		{
 			using func_t = decltype(&MemoryManager::RegisterMemoryManager);
+#ifdef SKYRIM_AE			
 			REL::Relocation<func_t> func{ REL::ID(36091) };
+#else			
+			REL::Relocation<func_t> func{ REL::ID(35199) };
+#endif			
 			return func(this);
 		}
 

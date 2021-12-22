@@ -414,7 +414,11 @@ namespace RE
 	float TESObjectREFR::GetWeightInContainer()
 	{
 		using func_t = decltype(&TESObjectREFR::GetWeightInContainer);
+#ifdef SKYRIM_AE
 		REL::Relocation<func_t> func{ REL::ID(19703) };
+#else
+		REL::Relocation<func_t> func{ REL::ID(19277) };
+#endif		
 		return func(this);
 	}
 
@@ -450,14 +454,22 @@ namespace RE
 	bool TESObjectREFR::HasQuestObject() const
 	{
 		using func_t = decltype(&TESObjectREFR::HasQuestObject);
+#ifdef SKYRIM_AE
 		REL::Relocation<func_t> func{ REL::ID(19627) };
+#else
+		REL::Relocation<func_t> func{ REL::ID(19201) };
+#endif		
 		return func(this);
 	}
 
 	void TESObjectREFR::InitChildActivates(TESObjectREFR* a_actionRef)
 	{
 		using func_t = decltype(&TESObjectREFR::InitChildActivates);
+#ifdef SKYRIM_AE
 		REL::Relocation<func_t> func{ REL::ID(20264) };
+#else
+		REL::Relocation<func_t> func{ REL::ID(19857) };
+#endif		
 		return func(this, a_actionRef);
 	}
 
@@ -482,14 +494,22 @@ namespace RE
 	bool TESObjectREFR::IsAnOwner(const Actor* a_testOwner, bool a_useFaction, bool a_requiresOwner) const
 	{
 		using func_t = decltype(&TESObjectREFR::IsAnOwner);
+#ifdef SKYRIM_AE
 		REL::Relocation<func_t> func{ REL::ID(20210) };
+#else
+		REL::Relocation<func_t> func{ REL::ID(19805) };
+#endif		
 		return func(this, a_testOwner, a_useFaction, a_requiresOwner);
 	}
 
 	bool TESObjectREFR::IsCrimeToActivate()
 	{
 		using func_t = decltype(&TESObjectREFR::IsCrimeToActivate);
+#ifdef SKYRIM_AE
 		REL::Relocation<func_t> func{ REL::ID(19827) };
+#else
+		REL::Relocation<func_t> func{ REL::ID(19400) };
+#endif		
 		return func(this);
 	}
 
@@ -680,7 +700,11 @@ namespace RE
 	InventoryChanges* TESObjectREFR::MakeInventoryChanges()
 	{
 		using func_t = decltype(&TESObjectREFR::MakeInventoryChanges);
+#ifdef SKYRIM_AE
 		REL::Relocation<func_t> func{ REL::ID(16040) };
+#else
+		REL::Relocation<func_t> func{ REL::ID(15802) };
+#endif		
 		return func(this);
 	}
 

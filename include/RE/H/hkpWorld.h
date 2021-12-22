@@ -71,7 +71,11 @@ namespace RE
 		inline void CastRay(const hkpWorldRayCastInput& a_input, hkpWorldRayCastOutput& a_output) const
 		{
 			using func_t = decltype(&hkpWorld::CastRay);
+#ifdef SKYRIM_AE			
 			REL::Relocation<func_t> func{ REL::ID(61399) };
+#else			
+			REL::Relocation<func_t> func{ REL::ID(60551) };
+#endif			
 			return func(this, a_input, a_output);
 		}
 
